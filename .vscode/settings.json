@@ -1,3 +1,13 @@
 {
-    "python.pythonPath": "/home/abe/.local/share/virtualenvs/natalies_second_chance_project-qM4G0n2e/bin/python"
+    "python.pythonPath": "/Users/temp/anaconda3/bin/python",
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./Arrays",
+        "-p",
+        "test*.py"
+    ],
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.unittestEnabled": true
 }
