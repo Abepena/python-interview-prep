@@ -22,7 +22,8 @@
 		"body": [
 			"import unittest\n",
 			"class TestSolution(unittest.TestCase):",
-			"\tdef test(self):\n\t\tsol = ${1:function}\n\t\tself.assertEqual(sol(${2:input}), ${3:output})\n",
+			"\tdef setUp(self):\n\t\t${1:pass}\n",
+			"\tdef test(self):\n\t\t${2:pass}",
 			"if __name__ == '__main__':\n\tunittest.main()",
 		],
 		"description": "Unit Test a Function"
