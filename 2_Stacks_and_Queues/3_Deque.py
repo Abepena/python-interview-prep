@@ -48,6 +48,9 @@ class TestSolution(unittest.TestCase):
         self.deque.append(4)
         self.assertEqual(str(self.deque), 'Deque(1, 2, 3, 4)')
 
+    def test_pop(self):
+        self.assertEqual(self.deque.pop(), 3)
+
     def test_size(self):
         self.assertEqual(self.deque.size(), 3)
         self.assertEqual(self.empty_deque.size(), 0)
